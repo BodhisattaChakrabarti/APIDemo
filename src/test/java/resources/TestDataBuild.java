@@ -36,8 +36,13 @@ public class TestDataBuild {
 		return "{\r\n  \"place_id\":\""+placeId+"\"\r\n}";
 	}
 	
-	public String deletePlacePayloadDummyMethod(String placeId)
+	public String deletePlacePayloadDummyMethod1(String placeId)
 	{
-		return "This is just a dummy method...";
+		return "This is just the first dummy method...";
+	}
+	
+	public String deletePlacePayloadDummyMethod2(String placeId)
+	{
+		return "This is just the second dummy method...";
 	}
 }
